@@ -14,3 +14,12 @@ show network interface statistics every seconds
 ```
 sar -n DEV 1
 ```
+### ethtool
+show nic statistics
+```
+ethtool -S eth0
+```
+show features for nic
+```
+ethtool -k eth0
+```

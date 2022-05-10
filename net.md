@@ -4,3 +4,8 @@ Show only tcp sockets with tcp internal info, extended socket info, process info
 ```
 ss -Otiepm
 ```
+### tcpdump
+dump packet from eth0 with ip1 or ip2 to path/trace-%H with split one hour.
+```
+tcpdump -i eth0 -n -w path/trace-%H host {ip1} or host {ip2} -G 3600 -K
+```

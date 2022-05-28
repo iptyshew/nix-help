@@ -23,3 +23,14 @@ show features for nic
 ```
 ethtool -k eth0
 ```
+
+## sysctl
+### systeroid 
+Show tui interface for manage kernel vars with their descriptions
+```
+systeroid --tui
+```
+Show detailed explanation for kernela variable
+```
+systeroid -E some_var
+```

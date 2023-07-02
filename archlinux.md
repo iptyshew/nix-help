@@ -11,8 +11,8 @@ add this line to `~/.Xmodmap`
 ```
 clear lock
 clear control
-add control = Caps_Lock Control_L Control_R
-keycode 66 = Control_L Caps_Lock NoSymbol NoSymbol
+keycode 66 = Control_L
+add control = Control_L Control_R
 ```                                                                                                                                           
 
 ### add ru keyboard layout(hack method)

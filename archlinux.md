@@ -14,3 +14,11 @@ clear control
 add control = Caps_Lock Control_L Control_R
 keycode 66 = Control_L Caps_Lock NoSymbol NoSymbol
 ```                                                                                                                                           
+
+### add ru keyboard layout(hack method)
+```
+localectl set-keymap us ru
+touch ~/.xprofile
+echo "setxkbmap us,ru -option 'grp:alt_space_toggle'" >> ~/.xprofile
+```
+restart x session

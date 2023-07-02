@@ -7,7 +7,7 @@ makepkg
 sudo pacman -U consolas-font-1.2-2-any.pkg.tar.zst
 ```
 ### caps lock as ctrl
-add this line to `~/.~/.Xmodmap`
+add this line to `~/.Xmodmap`
 ```
 clear lock
 clear control
